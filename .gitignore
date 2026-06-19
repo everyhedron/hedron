@@ -1,14 +1,14 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-next/node_modules
+node_modules
 
 # next.js
-next/.next/
-next/out/
+.next/
+out/
 
 # production
-next/build
+build
 
 # local env files
 *.env*.local
@@ -19,10 +19,7 @@ next/build
 
 # typescript
 *.tsbuildinfo
-next/next-env.d.ts
-
-# public
-next/public
+next-env.d.ts
 
 # db volume
 mongo_data
